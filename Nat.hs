@@ -1,5 +1,5 @@
 module Nat where
-import Prelude hiding (fact, fib, min, max, div, quot, rem, gcd, lcm, sum, mult, pow, pred, double, (<=), (<), (>=), (>), sub)
+import Prelude hiding (fact, fib, min, max, div, quot, rem, gcd, lcm, sum, mult, pow, pred, double, (<=), (<), (>=), (>), sub, leq, ev, od, isMul3, divides, isZero)
 
 data Nat = O | S Nat
     deriving ( Eq , Show )

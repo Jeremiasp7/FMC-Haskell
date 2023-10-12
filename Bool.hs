@@ -1,6 +1,6 @@
 module Bool where
 import Nat ( Nat(..) )
-import Prelude hiding (leq, ev, od, isMul3, divides, isZero, Bool, True, False, ifthenelse)
+import Prelude hiding (Bool, True, False, ifthenelse)
 
 data Bool = True | False
     deriving ( Eq , Show )
